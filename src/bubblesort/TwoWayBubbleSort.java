@@ -18,6 +18,7 @@ public class TwoWayBubbleSort {
         }
     }
 
+    //moving largest number to bottom of the sub-array
     private static void moveLargestNumberToBottom(int[] array) {
         boolean sorted = false;
         int temp;
@@ -34,6 +35,7 @@ public class TwoWayBubbleSort {
         }
     }
 
+    //moving smallest number to the top of the sub-array
     private static void moveSmallestNumberToTop(int[] array) {
         boolean sorted = false;
         int temp;
