@@ -8,6 +8,7 @@ public class BubbleSort {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
+        System.out.println();
         bubbleSort(array);
         System.out.println("After bubble sort: ");
         for (int i = 0; i < array.length; i++) {
